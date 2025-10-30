@@ -1,7 +1,7 @@
-FROM node:18-alpine 
+FROM node:20-alpine 
 WORKDIR /app
 COPY package*.json ./
 RUN npm install
 COPY . .
 EXPOSE 3500
-CMD ["node", "server.js"]
+CMD ["pm2-runtime", "server.js"]
