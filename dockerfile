@@ -4,4 +4,4 @@ COPY package*.json ./
 RUN npm install
 COPY . .
 EXPOSE 3500
-CMD ["pm2-runtime", "server.js"]
+CMD ["node", "server.js"]
