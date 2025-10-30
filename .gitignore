@@ -1,0 +1,74 @@
+# Node modules
+node_modules/
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Runtime data
+pids/
+*.pid
+*.seed
+
+# Optional npm cache directory
+.npm
+
+# dotenv environment variables
+.env
+.env.local
+.env.*.local
+
+# Build outputs
+dist/
+build/
+coverage/
+
+# Editor directories and files
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# SQLite files and DB editor project
+*.sqlite
+*.sqlite3
+*.db
+database/*.sqlite
+*.sqbpro
+
+# Socket.io client build
+/public/JS/*.map
+
+# Misc
+*.tgz
+*.log
+
+# Lockfiles (optional - keep if you want deterministic installs)
+# package-lock.json
+# yarn.lock
+
+# Ignore npm debug and test output
+coverage/
+
+# PM2
+pm2.pid
+
+# Docker
+docker-compose.override.yml
+
+# Local env overrides
+/local.env
+
+# Ignore secrets (if any)
+secrets/
+
+# End of file
